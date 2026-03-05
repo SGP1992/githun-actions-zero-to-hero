@@ -22,7 +22,7 @@ jobs:
       
       # setup github pages
       - name: Setup the GitHub pages
-        uses: actions/onfigure-pages@v4
+        uses: actions/configure-pages@v4
 
       #static code artifacts
       - name: Upload static file
