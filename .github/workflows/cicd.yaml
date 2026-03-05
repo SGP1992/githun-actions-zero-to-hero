@@ -31,6 +31,7 @@ jobs:
       - name: Test case
         run: echo "test case "
   deploy:
+    if: inputs.environment == 'dev'
     needs: [test]
     runs-on: ubuntu-latest
     steps:
