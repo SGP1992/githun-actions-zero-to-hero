@@ -1,1 +1,361 @@
-<h1> This is GitHub Actions </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sushant Patekar | DevOps Engineer</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Segoe UI',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+position:fixed;
+width:100%;
+top:0;
+background:rgba(15,23,42,0.9);
+padding:15px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+nav h2{
+color:#38bdf8;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:0 10%;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+margin-top:20px;
+font-size:18px;
+color:#cbd5f5;
+}
+
+.btn{
+margin-top:30px;
+display:inline-block;
+padding:12px 28px;
+background:#38bdf8;
+color:#000;
+border-radius:25px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* SECTION */
+
+section{
+padding:80px 10%;
+}
+
+.title{
+font-size:32px;
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+/* SKILLS */
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+text-align:center;
+transition:0.3s;
+}
+
+.skill:hover{
+transform:translateY(-5px);
+}
+
+/* EXPERIENCE */
+
+.timeline{
+border-left:3px solid #38bdf8;
+padding-left:20px;
+}
+
+.timeline-item{
+margin-bottom:30px;
+}
+
+/* CERTIFICATIONS */
+
+.cert{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+.social i{
+font-size:28px;
+margin:15px;
+color:#38bdf8;
+}
+
+/* ANIMATION */
+
+.fade{
+opacity:0;
+transform:translateY(20px);
+transition:all 1s;
+}
+
+.show{
+opacity:1;
+transform:translateY(0);
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Sushant</h2>
+<div>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+
+<!-- HERO -->
+
+<div class="hero">
+
+<div>
+<h1>Hello I'm <span>Sushant Patekar</span></h1>
+
+<p>Senior Linux & DevOps Engineer with 9+ years experience in
+OpenShift, Kubernetes, Linux Administration and CI/CD.</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</div>
+
+</div>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="fade">
+
+<h2 class="title">About Me</h2>
+
+<p>
+
+Senior Linux & DevOps Engineer based in Mumbai with strong expertise in
+OpenShift administration, Kubernetes infrastructure, Linux system
+engineering and enterprise DevOps platforms.
+
+Experienced in managing production clusters, CI/CD automation, cloud
+infrastructure and enterprise system performance optimization.
+
+</p>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="fade">
+
+<h2 class="title">Core Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Linux (RHEL / Ubuntu)</div>
+
+<div class="skill">Kubernetes</div>
+
+<div class="skill">OpenShift</div>
+
+<div class="skill">Docker</div>
+
+<div class="skill">AWS</div>
+
+<div class="skill">Jenkins</div>
+
+<div class="skill">Ansible</div>
+
+<div class="skill">ELK Stack</div>
+
+<div class="skill">Networking</div>
+
+<div class="skill">NFS Storage</div>
+
+</div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+
+<section id="experience" class="fade">
+
+<h2 class="title">Experience</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<h3>Tech Mahindra — Tech Lead DevOps Engineer</h3>
+
+<p>2021 - Present</p>
+
+<p>
+
+Managing OpenShift clusters, Kubernetes workloads,
+CI/CD pipelines and enterprise Linux infrastructure.
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>Capgemini — Linux Administrator</h3>
+
+<p>2018 - 2021</p>
+
+<p>
+
+Handled enterprise Linux environments, VMware infrastructure
+and advanced troubleshooting.
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>Simple Logic IT — System Administrator</h3>
+
+<p>2018</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CERTIFICATIONS -->
+
+<section class="fade">
+
+<h2 class="title">Certifications</h2>
+
+<div class="cert">AWS Certified Solutions Architect – Associate</div>
+
+<div class="cert">Red Hat Certified Engineer (RHCE)</div>
+
+<div class="cert">Red Hat Certified System Administrator (RHCSA)</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact fade">
+
+<h2 class="title">Contact</h2>
+
+<p>📍 Mumbai, India</p>
+
+<p>📞 +91 7021176686</p>
+
+<p>✉ sushant.patekar9@gmail.com</p>
+
+<div class="social">
+
+<a href="https://www.linkedin.com/in/sushant-patekar-a4b616105/">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://github.com/">
+<i class="fab fa-github"></i>
+</a>
+
+</div>
+
+</section>
+
+
+
+<script>
+
+const observer = new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.classList.add('show');
+}
+})
+})
+
+document.querySelectorAll('.fade').forEach(el=>{
+observer.observe(el)
+})
+
+</script>
+
+</body>
+</html>
