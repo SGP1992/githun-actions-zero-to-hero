@@ -1,7 +1,7 @@
 # This will deploy the safe/secure/tested app to Amezon  server
- name: deploy to server
+name: deploy to server
 
- on:
+on:
     workflow_call:
 
 jobs: 
