@@ -22,4 +22,4 @@ jobs:
                 image-ref: '${{ vars.DOCKERHUB_USER}}/github-actions-app:${{ github.sha }}'
                 severity: 'CRITICAL'
                 exit-code: '1' 
-                # trivyignore: ${{ github.workspace }}/.trivyignore 
+                trivyignore: ${{ github.workspace }}/.trivyignore 
